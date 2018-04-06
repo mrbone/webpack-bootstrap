@@ -15,3 +15,7 @@ node bin build
 ### start
 
 Start a local server.
+
+```bash
+node bin dev
+```

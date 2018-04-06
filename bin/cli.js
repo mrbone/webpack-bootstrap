@@ -20,7 +20,7 @@ generateConfig().then(( configs ) => {
       }
     })
   }
-  else if (task === 'start'){
+  else if (task === 'dev'){
     serve({config: configs});
   }
   else {
