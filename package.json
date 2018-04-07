@@ -1,7 +1,12 @@
 {
   "name": "webpack-bootstrap",
-  "version": "0.0.1",
-  "main": "index.js",
+  "version": "0.0.2",
+  "main": "bin/index.js",
+  "author": "mrbone",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrbone/webpack-bootstrap.git"
+  },
   "license": "MIT",
   "engines": {
     "node": ">=6.11.5"
