@@ -1,6 +1,6 @@
 {
   "name": "webpack-bootstrap",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "bin/index.js",
   "author": "mrbone",
   "description": "Easily implement webpack for any kind of front-end app",
