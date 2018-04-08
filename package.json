@@ -1,6 +1,6 @@
 {
   "name": "webpack-bootstrap",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "main": "bin/index.js",
   "author": "mrbone",
   "repository": {
