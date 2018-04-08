@@ -16,7 +16,8 @@
     "build": "webpack --config webpack.config.js",
     "mocha": "mocha",
     "test": "mocha lib/**/*.test.js --file ./test/setup.js --require babel-register",
-    "test:watch": "yarn test --watch"
+    "test:watch": "yarn test --watch",
+    "prepublish": "yarn test"
   },
   "bin": {
     "wboot": "./bin/index.js"
@@ -37,5 +38,9 @@
     "mocha": "^5.0.5",
     "proxyquire": "^2.0.1",
     "sinon": "^4.5.0"
+  },
+  "optionalDependencies": {
+    "babel-loader": "^7.1.4",
+    "babel-preset-react": "^6.24.1"
   }
 }

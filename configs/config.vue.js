@@ -5,6 +5,6 @@ const loaders = [
   }
 ];
 
-export default {
+module.exports = {
   loaders
 }
