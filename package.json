@@ -3,6 +3,14 @@
   "version": "0.1.1",
   "main": "bin/index.js",
   "author": "mrbone",
+  "description": "Easily implement webpack for any kind of front-end app",
+  "keywords": [
+    "webpack",
+    "react",
+    "vue",
+    "create-react-app",
+    "create-vue-app"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/mrbone/webpack-bootstrap.git"
