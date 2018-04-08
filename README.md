@@ -4,6 +4,7 @@ Easy implement webpack for any kind of font-end app.
 
 [![](https://img.shields.io/badge/node-%3E%3D6.11.5-brightgreen.svg)](https://nodejs.org/en/)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+[![](https://travis-ci.org/mrbone/webpack-bootstrap.svg?branch=master)](https://travis-ci.org/mrbone/webpack-bootstrap)
 
 ## Install
 
