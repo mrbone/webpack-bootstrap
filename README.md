@@ -14,8 +14,8 @@ Webpack-bootstrap support `build` and `dev` task right now. Set a script in `pac
 
 ```json
 "scripts": {
-    "wboot": "wboot"
-  }
+  "wboot": "wboot"
+}
 ```
 
 ### build
@@ -23,7 +23,7 @@ Webpack-bootstrap support `build` and `dev` task right now. Set a script in `pac
 Create a js bundle from `src/index`, the extension can be `js/jsx`.
 
 ```bash
-wboot build
+yarn wboot build
 ```
 
 ### start
@@ -31,5 +31,5 @@ wboot build
 Start a local server.
 
 ```bash
-wboot dev
+yarn wboot dev
 ```
