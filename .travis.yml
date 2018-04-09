@@ -3,4 +3,5 @@ node_js:
   - "node"
   - "7"
 script:
-  - yarn report-coverage
+  - yarn test:cov
+  - yarn codecov
