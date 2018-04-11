@@ -12,6 +12,11 @@ module.exports = {
   resolve:{
     extensions:['.js','.jsx','.ts']
   },
+  resolveLoader: {
+    modules: [
+      path.resolve(__dirname, '../node_modules')
+    ]
+  },
   module:{
     rules:[
     ]
