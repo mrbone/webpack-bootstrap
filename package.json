@@ -23,17 +23,18 @@
     "webpack": "webpack",
     "build": "webpack --config webpack.config.js",
     "mocha": "mocha",
+    "build:babel": "babel -d dist ./src",
     "codecov": "codecov",
     "nyc": "nyc",
-    "test": "mocha lib/**/*.test.js --file ./test/setup.js --require babel-register --reporter dot",
+    "test": "mocha src/lib/**/*.test.js --file ./test/setup.js --require babel-register --reporter dot",
     "test:cov": "nyc yarn test",
     "test:watch": "yarn test --watch",
-    "prepublishOnly": "yarn test",
+    "prepublishOnly": "yarn test:cov && yarn build:babel",
     "commit": "git-cz",
     "release": "yarn test && standard-version"
   },
   "bin": {
-    "wboot": "./bin/index.js"
+    "wboot": "./dist/bin/cli.js"
   },
   "config": {
     "commitizen": {
@@ -45,7 +46,6 @@
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
-    "babel-register": "^6.26.0",
     "inquirer": "^5.2.0",
     "vue-loader": "^14.2.2",
     "vue-template-compiler": "^2.5.16",
@@ -54,6 +54,7 @@
     "yargs": "^11.0.0"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
     "chai": "^4.1.2",
     "codecov": "^3.0.0",
     "commitizen": "^2.9.6",

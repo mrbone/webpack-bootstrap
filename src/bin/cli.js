@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import path from 'path';
 import cp from 'child_process';
 import yargs from 'yargs';
