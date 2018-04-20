@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.1.5"></a>
+## [0.1.5](https://github.com/mrbone/webpack-bootstrap/compare/v0.1.4...v0.1.5) (2018-04-20)
+
+
+### Bug Fixes
+
+* **$compile:** compile based on node v6.11.5 ([0dac9c1](https://github.com/mrbone/webpack-bootstrap/commit/0dac9c1))
+
+
+
 <a name="0.1.4"></a>
 ## [0.1.4](https://github.com/mrbone/webpack-bootstrap/compare/v0.1.3...v0.1.4) (2018-04-19)
 
