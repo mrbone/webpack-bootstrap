@@ -18,6 +18,8 @@ npm install webpack-bootstrap --save-dev
 
 Webpack-bootstrap support `build` and `dev` task right now. Set a script in `package.json` to easily invoke tasks.
 
+When you run the tasks below first time, you will been asked for which liberary you wanna compile, and then save this in `.wbootrc` in your package root folder.
+
 ```json
 "scripts": {
   "wboot": "wboot"
