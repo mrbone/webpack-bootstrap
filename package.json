@@ -27,9 +27,10 @@
     "codecov": "codecov",
     "nyc": "nyc",
     "test": "mocha src/lib/**/*.test.js --file ./test/setup.js --require babel-register --reporter dot",
-    "test:cov": "nyc yarn test",
+    "test:coverage": "nyc yarn test",
+    "codecov:report": "nyc report --reporter=text-lcov > coverage.lcov",
     "test:watch": "yarn test --watch",
-    "prepublishOnly": "yarn test:cov && yarn build:babel",
+    "prepublishOnly": "yarn test:coverage && yarn build:babel",
     "commit": "git-cz",
     "release": "yarn test && standard-version"
   },
