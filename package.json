@@ -21,7 +21,6 @@
   },
   "scripts": {
     "webpack": "webpack",
-    "build": "webpack --config webpack.config.js",
     "mocha": "mocha",
     "build:babel": "babel -d dist ./src",
     "codecov": "codecov",
