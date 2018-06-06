@@ -1,7 +1,7 @@
 {
   "name": "webpack-bootstrap",
   "version": "0.1.5",
-  "main": "bin/index.js",
+  "main": "src/bin/cli.js",
   "author": "mrbone",
   "description": "Easily implement webpack for any kind of front-end app",
   "keywords": [
