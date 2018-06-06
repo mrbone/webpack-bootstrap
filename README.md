@@ -11,6 +11,12 @@ Easy implement webpack for any kind of font-end app.
 ## Install
 
 ```bash
+yarn add webpack-bootstrap --dev
+```
+
+or
+
+```bash
 npm install webpack-bootstrap --save-dev
 ```
 
@@ -32,6 +38,12 @@ Create a js bundle from `src/index`, the extension can be `js/jsx`.
 
 ```bash
 yarn wboot build
+```
+
+or
+
+```bash
+npm run wboot build
 ```
 
 ### start
